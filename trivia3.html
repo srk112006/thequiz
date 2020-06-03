@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<body style="background-color:#deabab;">
+<html lang="en">
+    <head>       
+        <title>TRIVIA</title>
+    </head>
+  
+    <body>
+        <form>
+            <div>
+                <!--p tag is for paragraph-->
+                <p><h1 style="color:black;">Who created Pringles?</h1></p>            
+            </div>     
+            
+            <div id='Q1'>   
+<p style="font-size:30px">         
+                <!-- name field in input tag is same Q1 for all inputs so they form a group
+                . When they form a group selecting one deselects others automatically-->
+                <input type="radio" name="Q1" id="1A" value="A">
+                <label for="1A">A. Fredric Baur</label>
+</br>
+</br>
+                <input type="radio" name="Q1" id="1B" value="B">
+                <label for="1B">B. Steve Wozniac</label>
+</br>
+</br>
+<input type="radio" name="Q1" id="1B" value="B">
+                <label for="1B">C. Steven Jobs</label>
+</br>
+</br>
+<input type="radio" name="Q1" id="1B" value="B">
+                <label for="1B">B. James Baret</label>
+</br>
+</br>
+</div>
+            <br/>
+            <div>        
+                <button type="button" onclick="validateQ1()">Submit</button>
+            </div>
+        </form>
+
+        <p id="result"></p>   
+<script defer src="./trivia3.js"></script>  
+<a href="index.html">BACK TO HOME</a>      
+        
+
+</p>
+</html>
