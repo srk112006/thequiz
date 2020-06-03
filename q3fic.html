@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<body style="background-color:#deabab;">
+<html lang="en">
+    <head>       
+        <title>FICTION</title>
+    </head>
+  
+    <body>
+        <form>
+            <div>
+                <!--p tag is for paragraph-->
+                <p><h1 style="color:black;">In which Lord of the Rings book does Boromir die?</h1></p>            
+            </div>     
+            
+            <div id='Q1'>   
+<p style="font-size:30px">         
+                <!-- name field in input tag is same Q1 for all inputs so they form a group
+                . When they form a group selecting one deselects others automatically-->
+                <input type="radio" name="Q1" id="1A" value="A">
+                <label for="1A">A. The Two Towers</label>
+</br>
+</br>
+                <input type="radio" name="Q1" id="1B" value="B">
+                <label for="1B">B. The Return of the King</label>
+</br>
+</br>
+                <input type="radio" name="Q1" id="1C" value="C">
+                <label for="1C">C. The Fellowship of the Ring</label>
+</br>
+</br>
+                <input type="radio" name="Q1" id="1D" value="D">
+                <label for="1D">D. Rise of the Hobbits</label>
+            </div>
+            <br/>
+            <div>        
+                <button type="button" onclick="validateQ1()">Submit</button>
+            </div>
+        </form>
+        
+        <p id="result"></p>   
+<script defer src="./q3fic.js"></script>        
+        
+
+ <a href="fic.html"> BACK TO FICTION PAGE</a>
+</br>
+<a href = "index.html"> BACK TO HOME </a>
+</p>
+</html>
