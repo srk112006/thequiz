@@ -11,10 +11,10 @@ function validateQ1(){
     //and false when not selected
     //If 3rd choice is selected then set result to correct answer string
     if(answer3.checked == true){
-        result = "Awesome! Grear Job! Visit us for more fun";
+        result = "Awesome! Grear Job! Visit us for more fun!";
     }
     else{
-        result = "Sorry! This answer is wrong! The right answer was C- Sargaso Sea";
+        result = "Sorry! This answer is wrong! The right answer was C- Sargaso Sea. Please check out the other topics!";
     }
     //p tag (as in paragraph) in the end of the html has id result.
     //innerHTML is used to change what the paragraph displays
