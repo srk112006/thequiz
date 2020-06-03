@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<body style="background-color:#deabab;">
+<html lang="en">
+    <head>       
+        <title>GEOGRAPHY</title>
+    </head>
+  
+    <body>
+        <form>
+            <div>
+                <!--p tag is for paragraph-->
+                <p><h1 style="color:black;">How many countries are located in Asia?</h1></p>            
+            </div>     
+            
+            <div id='Q1'>   
+<p style="font-size:30px">         
+                <!-- name field in input tag is same Q1 for all inputs so they form a group
+                . When they form a group selecting one deselects others automatically-->
+                <input type="radio" name="Q1" id="1A" value="A">
+                <label for="1A">A. 48</label>
+</br>
+</br>
+                <input type="radio" name="Q1" id="1B" value="B">
+                <label for="1B">B. 83</label>
+</br>
+</br>
+                <input type="radio" name="Q1" id="1C" value="C">
+                <label for="1C">C. 96</label>
+</br>
+</br>
+                <input type="radio" name="Q1" id="1D" value="D">
+                <label for="1D">D. 29</label>
+            </div>
+            <br/>
+            <div>        
+                <button type="button" onclick="validateQ1()">Submit</button>
+            </div>
+        </form>
+        
+        <p id="result"></p>   
+<script defer src="./geoq1.js"></script>        
+        
+
+ <a href="Q2.html" class="next">Next &raquo;</a>
+    </body>
+</p>
+</html>
