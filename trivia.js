@@ -14,7 +14,7 @@ function validateQ1(){
         result = "Awesome! The questions will get harder!";
     }
     else{
-        result = "Sorry! This answer is wrong! The right answer was False";
+        result = "Sorry! This answer is wrong! The right answer was B-Maratus splendens ";
     }
     //p tag (as in paragraph) in the end of the html has id result.
     //innerHTML is used to change what the paragraph displays
