@@ -11,7 +11,7 @@ if(answer1.checked == false && answer2.checked == false && answer3.checked == fa
     result = "Please select an answer";
 }
 
-    elif(answer1.checked == true){
+    if(answer1.checked == true){
         result = "Awesome! The questions will get harder!";
     }
     else{
