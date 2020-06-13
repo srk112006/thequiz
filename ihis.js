@@ -6,12 +6,11 @@ function validateQ1(){
     
     var answer1 = document.getElementById('1B');
 
-    if(answer1.checked == false && answer2.checked == false && answer3.checked == false && answer4.checked == false){
+   
+if(answer1.checked == false && answer2.checked == false && answer3.checked == false && answer4.checked == false){
     result = "Please select an answer";
 }
-    //Checked is a special variable for radio buttons which is set to true when selected 
-    //and false when not selected
-    //If 1st choice is selected then set result to correct answer string
+
     elif(answer1.checked == true){
         result = "Awesome! The questions will get harder!";
     }
