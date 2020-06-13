@@ -5,6 +5,7 @@ function validateQ1(){
     
     
     var answer1 = document.getElementById('1A');
+    
 
     
     //Checked is a special variable for radio buttons which is set to true when selected 
@@ -20,6 +21,10 @@ function validateQ1(){
     //innerHTML is used to change what the paragraph displays
     //What it displays depends on the answer selected above
     document.getElementById('result').innerHTML = result;
+    
+    if(answer1.checked == false && answer2.checked == false && answer3.checked == false && answer4.checked == false){
+    result = "Please select an answer";
+}
 
     
     
