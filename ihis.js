@@ -10,7 +10,6 @@ function validateQ1(){
 if(answer1.checked == false && answer2.checked == false && answer3.checked == false && answer4.checked == false){
     result = "Please select an answer";
 }
-
     if(answer1.checked == true){
         result = "Awesome! The questions will get harder!";
     }
