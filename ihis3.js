@@ -11,7 +11,7 @@ function validateQ1(){
     //and false when not selected
     //If 1st choice is selected then set result to correct answer string
     if(answer1.checked == true){
-        result = "ANAZING! Please check out the other topics!";
+        result = "AMAZING! Please check out the other topics!";
     }
     else{
         result = "Sorry! This answer is wrong! The right answer was C-Mauryan Empire. Please check out the other topics!";
